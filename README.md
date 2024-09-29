@@ -82,6 +82,7 @@ CREATE TABLE student (
 );
 ```
 ## SampleOutput 
+```bash
 Database connected!
 Student record inserted successfully.
 Student record inserted successfully.
@@ -93,7 +94,7 @@ SGPA updated successfully for Reg_no: 1
 Updated student list:
 Reg_no: 1, Name: John Doe, SGPA: 9.2
 Reg_no: 2, Name: Jane Smith, SGPA: 9.1
-
+```
 ## Overview of Included Sections:
 - **Description**: Overview of the project.
 - **Technologies Used**: Technologies utilized.
