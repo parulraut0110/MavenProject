@@ -87,6 +87,22 @@ Build the Project: Navigate to the project directory and build the project using
 mvn clean compile
 ```
 
+## Running the Project
+Once the project is set up, you can run the Main class to interact with the database.
+
+### Using Maven Command:
+Run the following Maven command to execute the Main class:
+
+```bash
+mvn exec:java -Dexec.mainClass="com.example.Main"
+```
+This will:
+
+Insert records into the database.
+Display all student records.
+Update the SGPA for a student with a specific Reg_no.
+Display the updated list of students.
+
 ### Key Files:
 - **DBConnection.java**: Establishes a connection to the MySQL database.
 - **Student.java**: Represents the student entity with fields `Reg_no`, `Name`, and `SGPA`.
