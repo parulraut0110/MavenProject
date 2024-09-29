@@ -29,6 +29,8 @@ This Maven project interacts with a MySQL database and performs basic CRUD opera
 
 ## Project Structure
 
+```bash
+
 studentMavenProject/
 
 │
@@ -52,12 +54,10 @@ studentMavenProject/
 │ └── Main.java
 
 │
-
 ├── pom.xml
-
 └── README.md
 
-
+```
 
 
 ### Key Files:
