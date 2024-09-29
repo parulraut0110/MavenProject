@@ -7,7 +7,7 @@ This project is a simple Java-based Maven project that allows users to:
 - Display all student records.
 - Update the SGPA for a specific student based on their Registration Number.
 
-## Table of Contents
+## Readme of Contents
 - [Description](#description)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
