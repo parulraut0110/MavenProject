@@ -47,14 +47,6 @@ studentMavenProject/
 └── README.md
 
 ```
-
-
-### Key Files:
-- **DBConnection.java**: Establishes a connection to the MySQL database.
-- **Student.java**: Represents the student entity with fields `Reg_no`, `Name`, and `SGPA`.
-- **StudentDAO.java**: Contains methods for database operations (insert, update, and fetch students).
-- **Main.java**: The entry point of the application, showcasing the functionality of `StudentDAO`.
-
 ## Database Schema
 
 Before running the project, you need to create the MySQL database and the `student` table. Run the following SQL commands:
@@ -70,6 +62,14 @@ CREATE TABLE student (
     SGPA DOUBLE
 );
 ```
+
+### Key Files:
+- **DBConnection.java**: Establishes a connection to the MySQL database.
+- **Student.java**: Represents the student entity with fields `Reg_no`, `Name`, and `SGPA`.
+- **StudentDAO.java**: Contains methods for database operations (insert, update, and fetch students).
+- **Main.java**: The entry point of the application, showcasing the functionality of `StudentDAO`.
+
+
 ## SampleOutput 
 ```bash
 Database connected!
