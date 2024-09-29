@@ -51,7 +51,7 @@ CREATE TABLE student (
     SGPA DOUBLE
 );
 
-```Text 
+## SampleOutput 
 Database connected!
 Student record inserted successfully.
 Student record inserted successfully.
@@ -64,7 +64,7 @@ Updated student list:
 Reg_no: 1, Name: John Doe, SGPA: 9.2
 Reg_no: 2, Name: Jane Smith, SGPA: 9.1
 
-### Overview of Included Sections:
+## Overview of Included Sections:
 - **Description**: Overview of the project.
 - **Technologies Used**: Technologies utilized.
 - **Project Structure**: Directory layout of the project.
