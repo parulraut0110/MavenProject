@@ -30,31 +30,18 @@ This Maven project interacts with a MySQL database and performs basic CRUD opera
 ## Project Structure
 
 studentMavenProject/
-
 │
-
 ├── src/
-
 │ └── main/
-
 │ └── java/
-
 │ └── com/
-
 │ └── example/
-
 │ ├── DBConnection.java
-
 │ ├── Student.java
-
 │ ├── StudentDAO.java
-
 │ └── Main.java
-
 │
-
 ├── pom.xml
-
 └── README.md
 
 
