@@ -63,6 +63,30 @@ CREATE TABLE student (
 );
 ```
 
+## Setup and Installation
+### Steps:
+#### Clone the Repository: Clone this repository to your local machine using:
+
+```bash
+git clone https://github.com/yourusername/studentMavenProject.git
+```
+#### Set Up the MySQL Database:
+
+Open MySQL Workbench or the MySQL Command Line Client.
+Run the SQL commands from the Database Schema section to create the studentMavenProject database and the student table.
+Configure Database Credentials: Update the DBConnection.java file with your MySQL credentials:
+
+```java
+
+private static final String USER = "root";  // Replace with your MySQL username
+private static final String PASSWORD = "Raut#0110";  // Replace with your MySQL password
+```
+Build the Project: Navigate to the project directory and build the project using Maven:
+
+```bash
+mvn clean compile
+```
+
 ### Key Files:
 - **DBConnection.java**: Establishes a connection to the MySQL database.
 - **Student.java**: Represents the student entity with fields `Reg_no`, `Name`, and `SGPA`.
