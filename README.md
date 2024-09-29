@@ -67,7 +67,7 @@ CREATE TABLE student (
     Name VARCHAR(100),
     SGPA DOUBLE
 );
-
+```
 ## SampleOutput 
 Database connected!
 Student record inserted successfully.
