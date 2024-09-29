@@ -71,7 +71,7 @@ CREATE TABLE student (
 #### Clone the Repository: Clone this repository to your local machine using:
 
 ```bash
-git clone https://github.com/yourusername/studentMavenProject.git
+git clone https://github.com/parulraut0110/MavenProject.git
 ```
 #### Set Up the MySQL Database:
 
